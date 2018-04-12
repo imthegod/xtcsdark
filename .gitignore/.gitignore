@@ -366,6 +366,20 @@ td {
 	margin-top: 2px;
     border-radius: 3px;
 }
+div#bbcode_smileys_list_shout_message.tbl1 {
+ background: #2d3436 !important; 
+    opacity: 1 !important;
+    border: 0 !important;
+    border-radius: 3px !important;
+    box-shadow: none !important;
+    overflow: auto;
+    position: absolute;
+    margin-top: 5px !important;
+    width: 400px !important;
+    height: auto;
+    left: 650px !important;
+    top: 429px !important;
+}
 
 a.nav
 {
@@ -644,6 +658,7 @@ hr.forum-line {
     margin-top: 24px;
     margin-bottom: 12px;
 }
+
 hr.edited-post {
     border-top: 1px solid rgba(0, 0, 0, 0.08);
     border-bottom: 1px solid rgba(0, 0, 0, 0.08);
@@ -781,7 +796,15 @@ textarea.fast-reply, textarea.reply, input.text-field
 	resize: none;
 	width: 99%;
 }
-
+textarea.reply:hover, input.text-field:hover
+{
+	background-color: #2d3436 !important;
+	border: none !important;
+}
+textarea.reply:focus, input.text-field:focus {
+    background-color: #2d3436 !important;
+	border: none !important;
+}
 
 ::-webkit-scrollbar-track{
     background: #fff;
