@@ -1,8 +1,7 @@
-body
-{
+body {
 	background-color: #2d3436;
 	color: #fff;
-	font-family: calibri;
+	font-family: calibri !important;
 	margin: 0 auto !important;
 	padding: 0 !important;
     font-size: 11px;
@@ -12,7 +11,10 @@ td a {
     font-family: calibri; color: #55943a;
 }
 .table-2-new table tr td div {
- background: none !important;   
+    background: none !important;  
+    color: #fff !important;
+    font-family: calibri !important;
+    font: bold 12px calibri !important;
 }
 
 a { font-family: calibri; color: #55943a; }
@@ -151,7 +153,8 @@ tbody td td.table-2-new div img {
 }
 div {
     box-shadow: none !important;
-  
+    text-shadow: none !important;
+    font-family: calibri !important;
 }
 div img {
     border-radius: 3px   
@@ -343,12 +346,7 @@ div img {
     color: #1d1d1d;
 }
 
-div {
-    text-shadow: none !important;
-    box-shadow: none !important;
-    font-family: calibri !important;
-    
-}
+
 
 td {
     text-shadow: none !important;
@@ -796,6 +794,7 @@ textarea.fast-reply, textarea.reply, input.text-field
 	resize: none;
 	width: 99%;
 }
+textarea { background: #2d3436; color: #fff !important; font-family: calibri !important;}
 textarea.reply:hover, input.text-field:hover
 {
 	background-color: #2d3436 !important;
