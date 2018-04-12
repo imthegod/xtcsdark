@@ -7,13 +7,16 @@ body
 	padding: 0 !important;
     font-size: 11px;
 }
-
+b { text-shadow: none !important; }
 td a {
     font-family: calibri; color: #55943a;
 }
+.table-2-new table tr td div {
+ background: none !important;   
+}
 
 a { font-family: calibri; color: #55943a; }
-a:hover { text-decoration: none; color: rgba(255, 255, 255, 0.4); transition: .5s; }
+a:hover { text-decoration: none !important; color: rgba(255, 255, 255, 0.4); transition: .5s; }
 table tr td a img { 
     border: 0 !important; 
     border-radius: 3px !important;
@@ -651,7 +654,7 @@ hr.edited-post {
 {
 	opacity: 1.0;
 	filter: alpha(opacity=100);
-    color: #2d3436; transition: .5s;
+    color: #ecf0f1; transition: .5s;
 }
 
 #pqe-button:active
@@ -698,7 +701,7 @@ td.listtable-info a:hover{
 }
 td.listtable a
 {
-	color: #fff !important;
+	color: #fff;
 	font: bold 12px calibri; text-transform: uppercase;
 	text-decoration: none;
 }
@@ -709,7 +712,7 @@ td.listtable a:hover
 }
 td.listtable a.old
 {
-	color: #2d3436;
+	color: #fff;
 	font: bold 12px calibri; text-transform: uppercase;
 	text-decoration: none;
 }
