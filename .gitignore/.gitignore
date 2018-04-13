@@ -29,6 +29,45 @@ table tr td a img {
 table tbody tr td hr {
  border: 0 !important;
 }
+ 
+form span {
+ padding: 0 !important;   
+}
+.search-text {
+    color: #ecf0f1 !important;
+    background: #1d1d1d !important;
+    font: bold 13px calibri;
+    border: 0 !important;
+    border-width: 0 !important;
+    border-radius: 3px 0px 0px 3px;
+    -moz-border-radius: 3px !important;
+    -webkit-border-radius: 3px !important;
+    box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    display: inline;
+    padding: 0px 10px 0px 10px;
+    vertical-align: middle;
+    line-height: 26px;
+}
+.search-submit {
+    background: #55943a url(images/search-icon.png) no-repeat 50% 50%;
+    border: 0;
+    border-radius: 0px 3px 3px 0px;
+    -moz-border-radius: 0px 3px 3px 0px;
+    -webkit-border-radius: 0px 3px 3px 0px;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    cursor: pointer;
+    display: inline;
+    padding: 0;
+    vertical-align: middle;
+    line-height: 28px;
+}
+.search-submit:hover {
+    background: #55943a url(images/search-icon.png) no-repeat 50% 50%;
+}
 small {
     font-size: 10px;
 }
@@ -38,6 +77,7 @@ small {
     text-shadow: none;
     padding-left: 10px;
 }
+
 .agames-pg a, .xtcs-pg {
     background-color: #55943a;
     background: #55943a;
@@ -125,12 +165,43 @@ background-color: #2d3436;
 	width: 544px;
     border-radius: 3px;
 }
-
+.side-center tbody tr td {
+   background-image: none !important;
+}
+#breadcrumb-content {
+ background-color: transparent !important   
+}
+div.forum-stats {
+    color: #ecf0f1;
+    font: normal 12px calibri;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ 
+}
+div.forum-stats b {
+    background: #1d1d1d;
+    color: #ecf0f1;
+    font-size: 12px;
+    font-weight: bold;
+    border: 0;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    margin-right: 7px;
+    padding: 3px 9px;
+}
+div.forum-stats b:hover {
+    border: 0;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
 .side-right {
     background-color: #2d3436;
     border-radius: 3px;
     padding: 3px 0px 0px 5px;
 }
+
 
 .h-2-1 {
     background: url("https://i.imgur.com/cQHmEvx.gif") !important;
@@ -177,6 +248,9 @@ div img {
     margin-left: 18.5px;
     font: bold 13px calibri;
     color: #fff;
+    border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
 }
 .h-2-4 ul li a:active
 {
@@ -339,13 +413,19 @@ div img {
 	font-size: 10px;
 }
 .chat {
- background-color: #f0f0f0;   
+ background-color: #2d3436;   
     display: block;
     border:0;
-    padding: 3px !important;
-    color: #1d1d1d;
+    border-radius: 3px !important;
+    padding: 5px !important;
+    color: #ecf0f1;
+    margin-top: 5px;
 }
 
+.side-right table tr td div {
+ background-color: transparent !important;   
+    
+}
 
 
 td {
