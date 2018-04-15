@@ -127,15 +127,15 @@ small {
 	-webkit-box-shadow: none; transition: .5s;
 }
 .quote {
-    background: #2d3436;
-    color: #fff;
-    font-size: 11px;
-    border: rgba(255, 255, 255, 0.1) solid;
-    border-width: 1px 1px 1px 2px;
-    border-radius: 3px;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
-    padding: 5px 5px 5px 25px;
+    background-color: #2d3436 !important;
+    color: #fff !important;
+    font-size: 11px !important;
+    border: rgba(255, 255, 255, 0.1) solid !important;
+    border-width: 1px 1px 1px 2px !important;
+    border-radius: 3px !important;
+    -moz-border-radius: 3px !important;
+    -webkit-border-radius: 3px !important;
+    padding: 5px 5px 5px 25px !important;
 }
 .side-1
 {
@@ -869,17 +869,17 @@ td.listtable a:hover.new
 }
 .crumbs
 {
-    background-color: #1d1d1d !important;
+    
 	display: block;
 	padding-left: 0px;
     border:0 !important;
 }
-.side-center div { background-color: transparent !important; border:0 !important;}
+.side-center div { background-color: transparent; border:0; border-radius: 3px; }
 
 #breadcrumb-content {
- background-color: #1d1d1d !important;
-    border-radius: 3px;
-    margin: 0
+
+    margin: 0;
+    padding: 2px;
     
 }
 .crumbs li
@@ -890,7 +890,7 @@ td.listtable a:hover.new
 .crumbs li a
 {
 	background: transparent !important;
-	color: #fff;
+	color: #1d1d1d;
 	font: bold 13px calibri !important;
 	text-decoration: none;
 	display: block;
@@ -899,11 +899,12 @@ td.listtable a:hover.new
     padding: 10px;
 	position: relative;
     text-transform: uppercase;
+    border-radius: 3px;
 }
 .crumbs li a:hover
 {
-	background: transparent !important;
-	color: #ecf0f1 !important;
+	background: #55943a !important; transition: .7s;
+	color: #fff !important;
 	cursor: pointer;
     border: 0 !important;
 }
@@ -931,7 +932,7 @@ textarea.fast-reply, textarea.reply, input.text-field
 	-webkit-border-radius: 3px;
 	padding: 4px;
 	resize: none;
-	width: 99%;
+	width: 100%;
 }
 textarea { background: #2d3436; color: #fff !important; font-family: calibri !important; border: 0 !important; border-radius: 3px; }
 textarea.reply:hover, input.text-field:hover
