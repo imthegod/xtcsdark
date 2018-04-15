@@ -21,7 +21,10 @@ td a:hover {text-decoration: none !important; color: rgba(255, 255, 255, 0.4) !i
     color: #fff !important;
     font-family: calibri !important;
     font: bold 12px calibri !important;
+    border: 0 !important;
 }
+
+.table-2-new table tbody tr td { border:0 !important}
 
 a { font-family: calibri !important; color: #55943a; }
 a:hover { text-decoration: none !important; color: rgba(255, 255, 255, 0.4) !important; transition: .5s; }
@@ -677,9 +680,9 @@ td.viewthread
 	color: #fff !important;
 	font-family: calibri;
 	font-size: 12px;
-	border: #ffffff solid;
+	border: 0 !important;
 	border-width: 0 !important;
-	padding: 5px;
+	padding: 10px;
 }
 
 td.profile-info {
