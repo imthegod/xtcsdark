@@ -139,3 +139,17 @@ tr.row td div.comment-blue
 {
 	color: #ecf0f1 !important; background: #2d3436; padding: 2px; border-radius: 3px; font: bold 11px calibri;
 }
+
+::-webkit-scrollbar-track{
+    background: #fff;
+    border-left: 1px solid rgba(0, 0, 0, 0.04);
+    
+}
+::-webkit-scrollbar{
+    width: 10px;
+    height: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background: #55943a;
+    border: 2px solid #55943a;
+}
