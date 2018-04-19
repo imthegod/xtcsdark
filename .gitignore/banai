@@ -1,0 +1,366 @@
+body
+{
+	background: #2d3436;
+    font-family: calibri !important;
+	margin: 0px 0px 25px 0px;
+}
+
+a
+{
+	color: #ecf0f1;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #fff; transition: .7s
+}
+
+a.tt
+{
+	color: #ecf0f1;
+	font: normal 11px calibri;
+}
+
+a.tt:hover
+{
+	position: relative;
+}
+
+a.tt[tag]:hover:after
+{
+	content: attr(tag);
+	background-color: rgba(0, 0, 0, 0.9);
+	color: #ffffff;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	padding: 4px 8px;
+	position: absolute;
+	top: 200%;
+	left: 0px;
+	white-space: nowrap;
+	z-index: 20;
+}
+
+a.expires
+{
+	color: #707070;
+}
+
+.top
+{
+	color: #fff;
+	border: 0;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+    background: #1d1d1d;
+    font: bold 11px calibri;
+    text-align: right;
+    padding-left: 20%;
+    padding-right: 18%;
+    height: 60px;
+    line-height: 60px;
+}
+
+.top a
+{
+	color: #ecf0f1;
+	font: bold 12px calibri;
+}
+
+.top a:hover
+{
+	color: #fff;
+}
+
+input.text-field {
+	color: #fff !important;
+    background: #2d3436;
+	font: normal 11px calibri;
+	text-shadow: none;
+	border: 0;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	padding: 5px 6px 5px 25px;
+	width: 100px;
+}
+
+input:focus.text-field
+{
+	border: 0;
+}
+
+input.text-field name
+{
+	background-image: url('images/user-name.png');
+	background-position: 5px;
+	background-repeat: no-repeat; 
+}
+
+input.text-field pass
+{
+	background-image: url('images/user-pass.png');
+	background-position: 5px;
+	background-repeat: no-repeat;
+}
+
+.login-button
+{
+	background-color: #55943a;
+	color: #fff;
+	font: bold 11px calibri;
+	text-shadow: none;
+	border: 0;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	display: inline-block;
+	margin-top: 2px;
+	padding: 5px 24px;
+}
+
+.login-button:hover
+{
+	cursor: pointer;
+    background-color: #2d3436 !important;
+    transition: .5s;
+    color: #ecf0f1 !important;
+}
+div div div span { 
+    background: transparent !important; 
+    color: #fff !important;
+    padding: 3px !important;
+    margin-bottom: 15px !important;
+    margin-right: 1px !important;
+    font: normal 12px calibri !important;
+    text-shadow: none !important;
+}
+
+.login-button:active
+{
+	background-color: #55943a;
+	border: 0;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+div.header
+{
+	background: url("https://i.imgur.com/cQHmEvx.gif") no-repeat;
+	cursor: pointer;
+	width: 600px;
+	height: 150px;
+    margin-top: 10px;
+    border-radius: 3px;
+    border: 1px solid rgba(255, 255, 255, 0.05) !important;
+
+}
+
+div.ban-info
+{
+	background-color: #1d1d1d;
+	color: #fff !important;
+	font-family: calibri !important;
+	font-size: 12px;
+    font-weight: bold;
+	border: 1px solid rgba(255, 255, 255, 0.05) !important;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	margin-top: 10px;
+	padding: 7px 7px 7px 7px;
+	width: 150px;
+}
+div.ban-info b font { color: #55943a !important; }
+
+table.table
+{
+	border: 0;
+}
+
+td.row-title
+{
+	background: #55943a !important;
+	color: #ecf0f1;
+	font: bold 12px calibri;
+	padding: 10px 10px 10px 10px;
+    border: 0 !important
+}
+tr td { background-color: #1d1d1d !important; border-right: 0 !important; }
+
+tr#row
+{
+	background-color: #1d1d1d !important;
+}
+
+tr#row:hover
+{
+	background-color: #1d1d1d;
+}
+
+tr#row-successful
+{
+	background-color: #ddeeff;
+}
+
+tr#row-unsuccessful
+{
+	background-color: #ffeedd;
+}
+
+td.row
+{
+	color: #fff;
+	font-family: calibri;
+	font-size: 12px;
+	border: rgba(255, 255, 255, 0.07) solid;
+	border-width: 1px 1px 0px 0px;
+	padding: 6px 10px 6px 10px;
+}
+
+td.row small
+{
+	color: #fff;
+	font-size: 11px;
+	font-style: normal;
+}
+
+td.row.ban-details
+{
+	background-color: #eeeeee;
+    color: #ecf0f1 !important;
+}
+td.row.ban-details i { color: #55943a !important; }
+
+td.row a { color: #ecf0f1 !important; }
+
+td.row.ban-by-row
+{
+	background-color: #f0e0e0;
+	color: #a08080;
+	font-size: 11px;
+	transition: color 500ms;
+	-o-transition: color 500ms;
+	-moz-transition: color 500ms;
+	-webkit-transition: color 500ms;
+}
+
+td.row.ban-by-row:hover
+{
+	color: #402020;
+}
+
+td.row.edit-by-row
+{
+	background-color: #e0e0e0;
+	color: #808080;
+	font-size: 11px;
+	transition: color 500ms;
+	-o-transition: color 500ms;
+	-moz-transition: color 500ms;
+	-webkit-transition: color 500ms;
+}
+
+td.row.edit-by-row:hover
+{
+	color: #202020;
+}
+
+form
+{
+	margin: 0px;
+	padding: 0px;
+}
+div { border: 0 !important; }
+.pagenav
+{
+	padding-top: 10px;
+    color: #fff
+}
+
+.pagenav b
+{
+	background-color: #1d1d1d !important;
+	color: #ffffff !important;
+	font: bold 12px calibri;
+	text-shadow: none;
+	border: 0;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	margin: 2px;
+	padding: 3px 6px 3px 6px;
+}
+
+.pagenav span
+{
+	background-color: #55943a !important;
+	color: #ffffff !important;
+	font: bold 12px calibri;
+	text-shadow: none;
+	border: 0;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	margin: 2px;
+	padding: 5px 8px 5px 8px !important;
+}
+
+.pagenav a
+{
+	background-color: #1d1d1d !important;
+	color: #ffffff !important;
+	font: bold 12px calibri;
+	text-shadow: none;
+	border: 0;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	box-shadow:  none !important;
+	-moz-box-shadow:  none !important;
+	-webkit-box-shadow:  none !important;
+	margin: 2px;
+	padding: 5px 8px 5px 8px;
+}
+
+.pagenav a:hover
+{
+	cursor: pointer;
+    background-color: #55943a !important;
+    transition: .5s;
+    color: #ecf0f1 !important;
+}
+
+::-webkit-scrollbar-track{
+    background: #fff;
+    border-left: 1px solid rgba(0, 0, 0, 0.04);
+    
+}
+::-webkit-scrollbar{
+    width: 10px;
+    height: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background: #55943a;
+    border: 2px solid #55943a;
+}
