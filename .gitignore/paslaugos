@@ -1,0 +1,141 @@
+body
+{
+	margin: 0px 0px 30px 0px;
+    background: #2d3436;
+    font-family: calibri !important;
+}
+
+.header-1 {
+    background: #1d1d1d;
+    color: #fff;
+    font: bold 11px calibri;
+    text-align: right;
+    padding-left: 320px;
+    padding-right: 320px;
+    height: 60px;
+    line-height: 60px;
+
+   }
+.header-1 div { padding-top: 0 !important; }
+.header-1 a {
+    color: #fff;
+    font: bold 11px calibri;
+    text-decoration: none;
+}
+.header-1 a:hover {
+    color: rgba(255, 255, 255, 0.4) !important; transition: .5s !important;
+}
+.header-2-2 {
+    background: transparent;
+    width: 490px;
+    height: 130px;
+}
+.header-3 {
+    background: transparent;
+    width: 223px;
+    height: 49px;
+}
+.header-2-1 table tr td {
+    color: #ffffff;
+    font: bold 11px calibri;
+    text-shadow: none;
+}
+.header-2-1 table tr td b {
+    color: #ecf0f1;
+    padding: 0px;
+    border-radius: 3px;
+    
+}
+.header-2-1 {
+    background: #1d1d1d;
+    width: 265px;
+    height: 90px;
+    padding-top: 20px;
+    position: absolute;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+hr.xtcs-rights {
+    display: none
+}
+div.xtcs-rights {
+    color: #ecf0f1;
+    font: bold 11px calibri;
+    background: #1d1d1d;
+    position: absolute;
+    right: 47%;
+    margin-top: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 3px;   
+}
+div.xtcs-rights:hover { color: rgba(255, 255, 255, 0.4) !important; transition: .5s !important; }
+div.xtcs-rights:before {
+    content: 'neo ';
+}
+
+tr.row-title {
+    background-color: #55943a;
+    background: #55943a;
+    color: #ecf0f1;
+    font: bold 12px calibri;
+    text-shadow: none;
+    box-shadow: none;
+}
+tr.row-title td div.icon-ip-nick {
+    background: transparent;
+    padding-left: 0px;
+}
+tr.row-title td div.icon-privileges {
+    background: transparent;
+    background-position: 24px 50%;
+}
+tr.row-title td div.icon-end {
+    background: transparent;
+    padding-left: 15px;
+}
+tr.row-title td div.icon-comment {
+    background: transparent;
+    padding-left: 20px;
+}
+
+.table {
+    border: 0;
+    box-shadow: none;
+}
+
+tr.row {
+    background-color: #1d1d1d;
+    color: #fff;
+    font: bold 11px calibri !important;
+    box-shadow: none;
+}
+tr:hover.row
+{
+	background-color: #1d1d1d;
+    text-shadow: none !important;
+    color: rgba(255, 255, 255, 0.4) !important; transition: .5s !important;
+}
+tr.row td {
+    border-bottom: rgba(255, 255, 255, 0.07) solid 1px;
+    padding: 6px 12px;
+}
+tr.row td div.comment-red
+{
+	color: #ecf0f1 !important; background: #2d3436; padding: 2px; border-radius: 3px; font: bold 11px calibri;
+}
+
+tr.row td div.comment-orange
+{
+	color: #ecf0f1 !important; background: #2d3436; padding: 2px; border-radius: 3px; font: bold 11px calibri;
+}
+
+tr.row td div.comment-green
+{
+	color: #ecf0f1 !important; background: #2d3436; padding: 2px; border-radius: 3px; font: bold 11px calibri;
+}
+.table tbody tr.row td b { padding: 2px; border-radius: 3px; font: bold 11px calibri; }
+tr.row td div.comment-blue
+{
+	color: #ecf0f1 !important; background: #2d3436; padding: 2px; border-radius: 3px; font: bold 11px calibri;
+}
